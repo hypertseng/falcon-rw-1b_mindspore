@@ -1,0 +1,27 @@
+{
+  "_name_or_path": "./converted_repos/falcon-rw-1b",
+  "alibi": true,
+  "apply_residual_connection_post_layernorm": false,
+  "architectures": [
+    "FalconForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bias": true,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "hidden_dropout": 0.0,
+  "hidden_size": 2048,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "falcon",
+  "multi_query": false,
+  "num_attention_heads": 32,
+  "num_kv_heads": 32,
+  "num_hidden_layers": 24,
+  "new_decoder_architecture": false,
+  "parallel_attn": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.31.0.dev0",
+  "use_cache": true,
+  "vocab_size": 50304
+}
